@@ -1,0 +1,41 @@
+body
+{
+    background-image: url("bg img.jpg");
+    background-size: cover;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+    }
+    
+    #head{
+        color: white;
+    }
+
+    .button {
+        padding: 15px 25px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: lightcoral;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+      }
+      
+      .button:hover {background-color:palevioletred}
+      
+      .button:active {
+          color: black;
+        background-color:palevioletred;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+      
+
